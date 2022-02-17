@@ -1,19 +1,19 @@
 console.log("Começar inscrição")
 
 let listadeeventos = ["evento1", "evento2", "evento3"] //vetor ou array
-if (listadeeventos = "evento1") {
+if (listadeeventos.includes("evento3")) {
     console.log ("Evento existente")
 } else {
     console.log ("Evento não encontrado")
 }
-let data = 25/02/2022
-if (data => 15/02/2022) {
+let date = new Date("2022/02/22")
+if (date >= new Date("2022/02/15")) {
     console.log ("Data permitida, prosseguir")
 } else { 
     console.log("Data invalida")
 }
 let idade = 30
-if (idade =>18) {
+if (idade >= 18) {
     console.log ("Cadastro permitido")
 } else {
     console.log ("Cadastro inválido, idade inferior á 18 anos")
